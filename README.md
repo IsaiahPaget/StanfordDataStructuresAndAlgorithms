@@ -1,1 +1,1 @@
-# StanfordDataStructuresAndAlgorithms
+# UC San Diego DataStructuresAndAlgorithms
