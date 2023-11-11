@@ -1,5 +1,7 @@
-FROM python:3.8
+FROM python:latest
 
-ADD main.py .
+WORKDIR /app
 
-CMD [ "python", "./main.py" ]
+COPY . /app
+
+CMD [ "python", "main.py" ]
