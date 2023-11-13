@@ -8,11 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c604a55b59d5ab0e",
+            "id": "dc3acae52e885197",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Naive Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Naive Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Naive Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Naive Algorithms.md"
+              }
             }
           }
         ]
@@ -138,6 +146,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c604a55b59d5ab0e",
-  "lastOpenFiles": []
+  "active": "dc3acae52e885197",
+  "lastOpenFiles": [
+    "Naive Algorithms.md"
+  ]
 }
