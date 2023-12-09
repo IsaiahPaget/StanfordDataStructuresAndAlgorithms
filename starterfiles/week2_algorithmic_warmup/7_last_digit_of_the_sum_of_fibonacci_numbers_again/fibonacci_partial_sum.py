@@ -11,9 +11,9 @@ def fibonacci_partial_sum_naive(from_, to):
         if i >= from_:
             _sum += current
 
-        current, _next = _next, current + _next
+        current, _next = _next, current + _next % 10
 
-    return _sum % 10
+    return _sum
 
 
 if __name__ == '__main__':

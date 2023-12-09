@@ -31,7 +31,7 @@ def stress_test():
     while (True):
         n = random.randint(0, 100) 
         print(f"n: {n}")
-        
+
         a = []
         for i in range(n):
             a.append(random.randint(0, 10))
