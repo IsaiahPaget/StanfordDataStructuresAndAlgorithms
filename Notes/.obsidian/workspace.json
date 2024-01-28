@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Naive Algorithms.md",
+                "file": "Master theorem.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Naive Algorithms.md",
+                "file": "Master theorem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Naive Algorithms.md",
+                "file": "Master theorem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Naive Algorithms.md"
+                "file": "Master theorem.md"
               }
             }
           }
@@ -148,6 +148,6 @@
   },
   "active": "dc3acae52e885197",
   "lastOpenFiles": [
-    "Naive Algorithms.md"
+    "Master theorem.md"
   ]
 }
