@@ -1,18 +1,19 @@
-import math
 def binary_search(keys, query):
-    # write your code here
-    if len(keys) <= 1:
-        if keys[0] == query:
-            return 0
-        else:
-            return -1
-    len_keys = len(keys)
-    current_key = math.floor(len_keys / 2)
 
-    while True:
-        if query <= keys[current_key]:
-            pass
-            
+    r = len(keys) - 1
+    l = 0
+
+    while l <= r:
+        mid = l + (r - l) // 2
+        if keys[mid] == query:
+            return mid
+        elif keys[mid] < query:
+            l = mid + 1
+        else:
+            r = mid - 1
+
+    return -1
+
 
 if __name__ == '__main__':
     num_keys = int(input())
