@@ -2,8 +2,22 @@ from random import randint
 
 
 def partition3(array, left, right):
-    # write your code here
+    lt = left  # Start of the subarray
+    i = left  # Current index
+    gt = right  # End of the subarray
+    pivot = array[left]  # Choose the first element as the pivot
+    while i <= gt:
+        if array[i] < pivot:
+            array[i], array[lt] = array[lt], array[i]
+            lt +=  1
+            i +=  1
+        elif array[i] > pivot:
+            array[i], array[gt] = array[gt], array[i]
+            gt -=  1
+        else:
+            i +=  1
 
+    return lt, gt
 
 def randomized_quick_sort(array, left, right):
     if left >= right:
@@ -14,7 +28,7 @@ def randomized_quick_sort(array, left, right):
     randomized_quick_sort(array, left, m1 - 1)
     randomized_quick_sort(array, m2 + 1, right)
 
-
+          
 if __name__ == '__main__':
     input_n = int(input())
     elements = list(map(int, input().split()))
